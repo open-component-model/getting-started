@@ -57,7 +57,7 @@ jobs:
       with:
         action: add_resources
         component: ${{ env.COMP_NAME }}
-        resources: resources.yaml
+        resources: step-03/resources.yaml
         templater: spiff
         version: ${{ env.VERSION }}
         var_values: |
