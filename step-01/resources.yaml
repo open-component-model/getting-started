@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2022 2022-2023 SAP SE or an SAP affiliate company and Open Component Model contributors.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+---
+name: mychart
+type: helmChart
+input:
+  type: helm
+  path: ./helmchart
+---
+name: image
+type: ociImage
+version: "1.0.0"
+access:
+  type: ociArtifact
+  imageReference: gcr.io/google_containers/echoserver:1.10

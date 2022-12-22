@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2022 2022-2023 SAP SE or an SAP affiliate company and Open Component Model contributors.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+---
+name: chart
+type: helmChart
+input:
+  type: helm
+  path: helmchart
+---
+name: image
+type: ociImage
+version: 1.0.0
+input:
+  type: dockermulti
+  repository: eu.gcr.io/my-project/test/acme/simpleserver
+  variants:
+  - "ghcr.io/acme/simpleserver:1.0.0-linux-amd64"
+  - "ghcr.io/acme/simpleserver:1.0.0-linux-arm64"
