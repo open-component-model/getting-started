@@ -74,7 +74,8 @@ jobs:
       with:
         action: push_ctf
         ctf: gen/ctf
-        comprepo_url: https://ghcr.io/jensh007/ocm
+        comprepo_user: jensh007
+        comprepo_url: ghcr.io/jensh007/ocm
     - name: Upload transport archive
       uses: actions/upload-artifact@v3
       with:
