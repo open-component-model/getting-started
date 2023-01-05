@@ -23,8 +23,7 @@ explanations.
 
 ## Requirements and Setup
 
-Requires a Go development enviroment and docker for building containers as well as an installed
-OCM cli
+Using the examples requires a Go development enviroment and docker for building containers as well as an [installed OCM client](https://github.com/open-component-model/ocm/releases).
 
 ## Support, Feedback, Contributing
 
