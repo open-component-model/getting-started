@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2022 2022-2023 SAP SE or an SAP affiliate company and Op
 SPDX-License-Identifier: Apache-2.0
 -->
 
-[![REUSE status](https://api.reuse.software/badge/github.com/open-component-model/doc-sample)](https://api.reuse.software/info/github.com/open-component-model/ocm)
+[![REUSE status](https://api.reuse.software/badge/github.com/open-component-model/getting-started)](https://api.reuse.software/info/github.com/open-component-model/getting-started)
 
 
 ***
