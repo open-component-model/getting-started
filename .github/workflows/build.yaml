@@ -77,7 +77,7 @@ jobs:
         comprepo_user: jensh007
         comprepo_password: ${{ secrets.GITHUB_TOKEN }}
         ctf: gen/ctf
-        comprepo_url: ${{ env.REPO_URL }}/
+        comprepo_url: ${{ env.REPO_URL }}
     - name: Upload transport archive
       uses: actions/upload-artifact@v3
       with:
