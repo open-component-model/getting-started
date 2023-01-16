@@ -7,7 +7,7 @@ env:
   VERSION: "1.0.0"
   COMP_NAME: acme.org/demo/simpleserver
   PROVIDER: github.com/open-component-model
-  REPO_URL: ghcr.io/jensh007/ocm
+  REPO_URL: ghcr.io/open-component-model/ocm
 jobs:
   build-multiarch:
     runs-on: ubuntu-latest
