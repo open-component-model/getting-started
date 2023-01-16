@@ -76,7 +76,7 @@ jobs:
         comprepo_user: jensh007
         comprepo_password: ${{ secrets.GITHUB_TOKEN }}
         ctf: gen/ctf
-        comprepo_url: ghcr.io/open-component-model/ocm
+        comprepo_url: ghcr.io/${{ env.PROVIDER }}/ocm
     - name: Upload transport archive
       uses: actions/upload-artifact@v3
       with:
