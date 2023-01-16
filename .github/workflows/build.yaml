@@ -74,7 +74,7 @@ jobs:
       uses: open-component-model/ocm-action@main
       with:
         action: push_ctf
-        comprepo_user: $${{ env.GITHUB_ACTOR }}
+        comprepo_user: ${{ env.GITHUB_ACTOR }}
         comprepo_password: ${{ secrets.GITHUB_TOKEN }}
         ctf: gen/ctf
         comprepo_url: ${{ env.REPO_URL }}
