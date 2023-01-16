@@ -6,7 +6,7 @@ on:
 env:
   VERSION: "1.0.0"
   COMP_NAME: acme.org/demo/simpleserver
-  PROVIDER: github.com/jensh007
+  PROVIDER: github.com/open-component-model
   REPO_URL: ghcr.io/jensh007/ocm
 jobs:
   build-multiarch:
@@ -74,7 +74,7 @@ jobs:
       uses: open-component-model/ocm-action@main
       with:
         action: push_ctf
-        comprepo_user: jensh007
+        comprepo_user: $${{ env.GITHUB_ACTOR }}
         comprepo_password: ${{ secrets.GITHUB_TOKEN }}
         ctf: gen/ctf
         comprepo_url: ${{ env.REPO_URL }}
