@@ -12,7 +12,7 @@ SPDX-License-Identifier: Apache-2.0
 # Example From Documentation
 
 This repository contains some examples how to get started with the development
-of the OCM CLI. See [documentation](https://github.com/open-component-model/ocm-spec/tree/main/doc/scenarios/getting-started) for detailed instructions and
+of the OCM CLI. See [documentation](https://ocm.software/docs/guides/getting-started-with-ocm/) for detailed instructions and
 explanations.
 
 * [step-01](step-01/README.md) for a minimal integration
@@ -27,7 +27,7 @@ Using the examples requires a Go development enviroment and docker for building 
 
 ## Support, Feedback, Contributing
 
-This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/SAP/<your-project>/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://ocm.software/docs/guides/getting-started-with-ocm/). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## Code of Conduct
 
